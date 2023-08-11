@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        
+
+    </head>
+    <body>
+        <section class="container">
+            <header>
+                <h2 class="logo">INVESTEASY</h2>
+                <div class="toggle"></div>
+            </header>
+            <video src="./img/video2.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Aprenda a Investir</h2>
+                <h3>Com nossas Informações</h3>
+                <p>Os CDBs e as LC (Letras de Câmbio) também estão entre as melhores formas de investimento 
+                    para aquele dinheiro que você irá usar em até dois anos. Atualmente, é possível encontrar
+                     CDBs para 2023 e 2024 com taxas de rentabilidade acima do CDI, tanto nos pré quanto nos pós fixados.</p>
+                     <a href="">Saiba Mais!</a>
+            </div>
+        </section>
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Quem somos?</a></li>
+                <li><a href="">Redes Socias</a></li>
+                <li><a href="">Como Surgimos?</a></li>
+                
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const container = document.querySelector('.container');
+
+            menuToggle.addEventListener('click', ()=>{
+                menuToggle.classList.toggle('active');
+                container.classList.toggle('active');
+
+            })
+
+        </script>
+
+    </body>
+</html>
