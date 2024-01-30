@@ -1,2 +1,1 @@
-# Landing-Page-1
-Landing Page adaptada para todos os dispositivos
+Tela home de Investimento totalmente responsiva 
